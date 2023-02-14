@@ -14,8 +14,6 @@ function whisper(string) {
   }
 
 function sayHiToHeadphonedRoommate(string) {
-console.log(string.toLowerCase());
-console.log(string === string.toLowerCase());
 if (string === string.toLowerCase()) {
     return ("I can\'t hear you!");
 } 
